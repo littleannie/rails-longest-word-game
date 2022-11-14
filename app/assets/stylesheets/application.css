@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.letter {
+  width: 55px;
+  height: 55px;
+  background-color: #F7A4A4;
+  font-size: 40px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color:white;
+}
+
+.btn-green {
+  border-radius: 4px;
+    background-color: #B6E2A1;
+    border: none;
+    padding: 10px 32px;
+    font-size: 20px;
+    font-weight: 18px;
+    color: white;
+}
+
+.btn-green:hover {
+  background-color: #FEBE8C;
+}
